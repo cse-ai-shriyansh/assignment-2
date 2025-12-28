@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📘 Interactive Study Tool (NotebookLM-Inspired)
 
-## Getting Started
+An **AI-powered study assistant** that allows students to upload **PDFs and YouTube videos**, build a **knowledge base**, and ask questions that are answered **strictly from the provided sources**.
 
-First, run the development server:
+This system is **source-grounded**, **hallucination-free**, and designed for **deep learning, revision, and exam preparation**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 📄 Multi-Source Knowledge Ingestion
+- Upload **multiple PDFs**
+- Ingest **YouTube videos** using transcripts
+- Combine PDFs + videos into a single knowledge base
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🧠 Retrieval-Augmented Generation (RAG)
+- Content is chunked and embedded
+- Stored in **FAISS vector database**
+- Semantic retrieval ensures **only relevant context** is used
+- AI answers **ONLY from ingested sources**
 
-## Learn More
+### 👩‍🏫 Teacher-Style AI Responses
+- Step-by-step explanations
+- Simple, student-friendly language
+- Student follow-up questions + clarifications
+- Source references included
 
-To learn more about Next.js, take a look at the following resources:
+### 💬 Conversational Memory
+- Maintains chat history
+- Context-aware follow-up questions
+- Student ↔ Teacher dialogue format
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧱 Tech Stack
 
-## Deploy on Vercel
+### Frontend
+- **Next.js (App Router)**
+- React + TypeScript
+- Fetch API
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Backend
+- **FastAPI (Python)**
+- FAISS (Vector Search)
+- Gemini AI (LLM)
+- PyMuPDF (PDF parsing)
+- youtube-transcript-api (YouTube ingestion)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🗂 Project Structure
+
