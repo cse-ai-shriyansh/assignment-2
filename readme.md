@@ -1,4 +1,4 @@
-# 📘 Interactive Study Tool (NotebookLM-Inspired)
+# Interactive Study Tool (NotebookLM-Inspired)
 
 An **AI-powered study assistant** that allows students to upload **PDFs and YouTube videos**, build a **knowledge base**, and ask questions that are answered **strictly from the provided sources**.
 
