@@ -13,7 +13,7 @@ This system is **source-grounded**, **hallucination-free**, and designed for **d
 - Ingest **YouTube videos** using transcripts
 - Combine PDFs + videos into a single knowledge base
 
-### 🧠 Retrieval-Augmented Generation (RAG)
+###  Retrieval-Augmented Generation (RAG)
 - Content is chunked and embedded
 - Stored in **FAISS vector database**
 - Semantic retrieval ensures **only relevant context** is used
