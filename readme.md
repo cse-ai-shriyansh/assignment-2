@@ -6,7 +6,7 @@ This system is **source-grounded**, **hallucination-free**, and designed for **d
 
 ---
 
-## 🚀 Features
+##  Features
 
 ### 📄 Multi-Source Knowledge Ingestion
 - Upload **multiple PDFs**
