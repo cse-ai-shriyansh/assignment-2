@@ -25,7 +25,7 @@ This system is **source-grounded**, **hallucination-free**, and designed for **d
 - Student follow-up questions + clarifications
 - Source references included
 
-### 💬 Conversational Memory
+###  Conversational Memory
 - Maintains chat history
 - Context-aware follow-up questions
 - Student ↔ Teacher dialogue format
