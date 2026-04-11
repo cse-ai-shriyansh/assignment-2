@@ -8,7 +8,7 @@ This system is **source-grounded**, **hallucination-free**, and designed for **d
 
 ##  Features
 
-### 📄 Multi-Source Knowledge Ingestion
+###  Multi-Source Knowledge Ingestion
 - Upload **multiple PDFs**
 - Ingest **YouTube videos** using transcripts
 - Combine PDFs + videos into a single knowledge base
