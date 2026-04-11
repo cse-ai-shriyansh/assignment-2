@@ -19,7 +19,7 @@ This system is **source-grounded**, **hallucination-free**, and designed for **d
 - Semantic retrieval ensures **only relevant context** is used
 - AI answers **ONLY from ingested sources**
 
-### 👩‍🏫 Teacher-Style AI Responses
+### Teacher-Style AI Responses
 - Step-by-step explanations
 - Simple, student-friendly language
 - Student follow-up questions + clarifications
